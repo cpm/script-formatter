@@ -1,0 +1,34 @@
+.entity {
+  margin-left: 3em;
+  padding-bottom: 1em;
+}
+
+.speaker {
+  margin-left: -3em;
+  font-weight: bold;
+  display: block;
+  font-variant: small-caps;
+}
+
+.slashy, .paren {
+  font-style: italic;
+}
+
+.paren {
+  display: block;
+  margin-bottom: 1em;
+}
+
+.cappy {
+  text-transform: uppercase;
+}
+
+.slashy .cappy, .paren .cappy {
+  text-transform: none;
+  font-style: normal;
+  font-variant: small-caps;
+}
+
+body {
+  width: 30em;
+}
